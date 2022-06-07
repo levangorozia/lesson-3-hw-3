@@ -1,0 +1,173 @@
+/* heared styles */
+
+.link{
+	font-size: 22px;
+	color: #3D58A6;
+}
+
+.active-link{
+
+	color: #EE4036;
+}
+
+.navbar {
+	display: inline-block;
+	background: lightblue;
+	vertical-align: middle;
+
+}
+
+.li-list { display: inline-block;
+ }
+
+.logo {
+	vertical-align: middle;
+}
+
+
+
+/* section styles - index html */
+
+.left-block {
+	width: 570px;
+	background: pink;
+	display: inline-block;
+
+}
+.right-block { 
+
+	width: 570px;
+	background: lightblue;
+	display: inline-block;
+
+}
+.block-text{
+	display: inline-block;
+	width: 355PX;
+	vertical-align: middle;
+}
+.block-image{
+
+	vertical-align: middle;
+}
+
+
+/* footer styles */
+
+.divider{
+width: 2px;
+height: 25px;
+background-color: red;
+display: inline-block;
+
+}
+
+
+/* news styles */
+
+.date{
+display: inline-block;
+width: 56px;
+height: 56px;
+background-color: #3D58A6;
+font-size: 35px;
+color: white;
+margin-left: 30px;
+margin-top: 40px;
+padding-left: 10px;
+padding-top: 5px;
+
+}
+
+.month {
+	display: block;
+	font-size: 22px;
+	color: #3D58A6;
+	margin-left: 30px;
+	margin-top: 2px;
+}
+
+.imagetop {
+	display: inline-block;
+	padding-left: 30px;
+	vertical-alain: middle;
+	padding-top: 18px
+}
+
+.divtext{ 
+display: inline-block;
+	width: 929px;
+	padding-left: 39px;
+	padding-top: 30px;
+	vertical-alain: middle;
+	text-align: justify;
+ }
+
+.contact-section{ 
+
+	width: 1366px;
+	height: 570px;
+	background-color: #E6E6E6;
+	margin-top: 24px;
+}
+
+.divcontact {
+	display: inline-block;
+	padding-top: 51px;
+	padding-left: 97px;
+	vertical-align: top;
+}
+
+.contact-title {
+	font-size: 20px;
+	color: #3D58A6;
+}
+.contact-style {
+	font-size: 16px;
+	color: #808080;
+}
+.contact-ul {
+	padding-top: 4px;
+}
+
+
+/* map styles */
+
+.map {
+
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 39px;
+	margin-left: 63px;
+}
+
+
+
+/* css box model */
+
+.hello {
+
+	border-width: 2px;
+	border-style: dashed;
+	border-color: red;
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-bottom: 30 px;
+	margin-left: 20px;
+	padding-top: 50px;
+	padding-left: 20px;
+
+}
+	
+.hello2 {
+
+	border-width: 2px;
+	border-style: solid;
+	border-color: blue
+
+}
+
+
+* {
+ 	box-sizing: border-box;
+ }
